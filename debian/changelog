@@ -1,3 +1,9 @@
+jzmq (3.2.1-1) unstable; urgency=low
+
+  *  Dep on zmq3
+
+ -- GenieDB Ltd. <tech@geniedb.com>  Fri, 12 Oct 2012 16:04:47 +0100
+
 jzmq (2.1.0-1) unstable; urgency=low
 
   * Development release

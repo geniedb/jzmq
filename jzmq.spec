@@ -1,5 +1,5 @@
 Name:          jzmq
-Version:       2.1.0
+Version:       3.2.0
 Release:       1%{?dist}
 Summary:       The Java ZeroMQ bindings
 Group:         Applications/Internet
@@ -75,6 +75,9 @@ This package contains Java Bindings for ZeroMQ related development libraries and
 %{_libdir}/libjzmq.a
 
 %changelog
+* Fri Oct 12 2012 GenieDB Ltd <tech@geniedb.com>
+- bump to 3.2.0
+
 * Thu Dec 09 2010 Alois Belaska <alois.belaska@gmail.com>
 - version of package changed to 2.1.0
 * Tue Sep 21 2010 Stefan Majer <stefan.majer@gmail.com> 
