@@ -1,6 +1,6 @@
 Name:          jzmq
 Version:       3.2.0
-Release:       1%{?dist}
+Release:       2%{?dist}
 Summary:       The Java ZeroMQ bindings
 Group:         Applications/Internet
 License:       LGPLv3+
@@ -9,7 +9,7 @@ Source:        http://www.zeromq.org/local--files/area:download/%{name}-%{versio
 Prefix:        %{_prefix}
 Buildroot:     %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: gcc, make, gcc-c++, libstdc++-devel
-Requires:      libstdc++, zeromq
+Requires:      libstdc++, zeromq3
 
 %description
 The 0MQ lightweight messaging kernel is a library which extends the
@@ -75,9 +75,10 @@ This package contains Java Bindings for ZeroMQ related development libraries and
 %{_libdir}/libjzmq.a
 
 %changelog
+* Tue Nov 13 2012 GenieDB Ltd <tech@geniedb.com>
+- Dep on zeromq3
 * Fri Oct 12 2012 GenieDB Ltd <tech@geniedb.com>
 - bump to 3.2.0
-
 * Thu Dec 09 2010 Alois Belaska <alois.belaska@gmail.com>
 - version of package changed to 2.1.0
 * Tue Sep 21 2010 Stefan Majer <stefan.majer@gmail.com> 
